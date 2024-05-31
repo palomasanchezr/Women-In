@@ -20,11 +20,13 @@ casos <- coronavirus::coronavirus
 
 ## Antecedentes
 
+(imgs/COVID.jpg){width="50%"}
+
 Se empieza definiendo un poco de contexto en 3 párrafos:
 
-* ¿Qué es el COVID19? Es un virus, se transmite por vía aerea, causa diversos síntomas, etc...
+* ¿Qué es el COVID19? Es una enfermedad infecciosa causada por el coronavirus SARS-CoV-2, detectado por primera vez en diciembre de 2019 en Wuhan, China. Se transmite principalmente a través de gotas respiratorias y puede causar síntomas que van desde leves, como fiebre y tos, hasta graves, como dificultad respiratoria y neumonía. La pandemia resultante ha tenido un impacto global significativo en la salud pública y la economía.
 
-* ¿Cuál fue la situación en México entre 2020 y 2022? Cuándo se tuvieron los primeros contagios, qué medidas se tomaron, cómo se establecieron los programas de prevención y vacunación, etc...
+* Entre 2020 y 2022, México enfrentó la pandemia de COVID-19 con la implementación de medidas como el cierre de escuelas y negocios, y campañas de uso de mascarillas y distanciamiento social. Los primeros casos aparecieron en febrero de 2020, y la campaña de vacunación comenzó en diciembre de ese año, priorizando a grupos vulnerables y extendiéndose luego a la población general. A pesar de varias olas de contagios, estas medidas ayudaron a reducir la incidencia y la mortalidad del virus en el país.
 
 * ¿Cuál es el contexto de los datos que estamos usando? Se recomienda revisar el github del autor del paquete [https://github.com/RamiKrispin/coronavirus] para acceder a los detalles de los datos. También se puede probar con ??coronavirus en RStudio.
 
@@ -264,6 +266,10 @@ A cuatro años de haber iniciado la pandemia de COVID-19, las tasas de mortalida
 
 * Se agregan las referencias necesarias para citar los documentos y reportes utilizados.
 * Se debe incluir también la cita al paquete de datos `coronavirus` de R.
+```{r}
+citation("coronavirus")
+```
+
 
 # Pasos a seguir para subir el reporte a GitHub
 
