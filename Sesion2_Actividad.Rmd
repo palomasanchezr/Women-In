@@ -23,7 +23,7 @@ casos <- coronavirus::coronavirus
 
 ## Antecedentes
 
-(imgs/COVID.jpg){width="50%"}
+![Imagen Covid](Imgs/COVID.jpg){width="50%"}
 
 Se empieza definiendo un poco de contexto en 3 párrafos:
 
