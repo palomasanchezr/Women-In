@@ -1,14 +1,17 @@
 ---
 title: "Sesion2_Actividad"
-output: github_document
+author: "Paloma Sanchez"
 date: "2024-02-05"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ## Chunk de carga de paquetes, definición de variables, etc.
 
 Este chunk debería marcarse con echo=FALSE y message=FALSE. ¿Tal vez los demás también? Esto ya dependerá de las preferencias personales de cada quien y el cómo quiere presentar sus resultados.
 
-```{r entorno, echo=FALSE, message=FALSE}
+```{r entorno, echo=FALSE, message=FALSE, warning=FALSE}
 library(coronavirus)
 library(tidyverse)
 library(DT)
